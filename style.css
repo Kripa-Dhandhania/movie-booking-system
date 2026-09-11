@@ -424,4 +424,18 @@ footer {
     .booking-info h1 {
         font-size: 40px;
     }
+    .movie-message {
+    text-align: center;
+    padding: 50px 20px;
+    background: #151b31;
+}
+
+.movie-message h2 {
+    color: #ff4d6d;
+    margin-bottom: 10px;
+}
+
+.movie-message p {
+    color: #aeb4ca;
+}
 }
