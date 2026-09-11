@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Tickets - CineBook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">🎬 CineBook</div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="booking.html">Book Tickets</a></li>
+        </ul>
+
+        <a href="booking.html" class="nav-btn">Book Now</a>
+    </nav>
+</header>
+
+<section class="booking-section">
+
+    <div class="booking-container">
+
+        <div class="booking-info">
+            <p class="tagline">RESERVE YOUR SEAT</p>
+
+            <h1>Book Your<br>
+                <span>Movie Tickets</span>
+            </h1>
+
+            <p>
+                Select your movie, date and preferred seats.
+                Your perfect movie experience is just a few clicks away.
+            </p>
+        </div>
+
+        <form class="booking-form">
+
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your name">
+
+            <label>Select Movie</label>
+
+            <select>
+                <option>Galactic Journey</option>
+                <option>Shadow Mission</option>
+                <option>Beyond Dreams</option>
+                <option>Weekend Madness</option>
+            </select>
+
+            <label>Select Date</label>
+            <input type="date">
+
+            <label>Select Time</label>
+
+            <select>
+                <option>10:00 AM</option>
+                <option>1:30 PM</option>
+                <option>5:00 PM</option>
+                <option>8:30 PM</option>
+            </select>
+
+            <label>Number of Tickets</label>
+            <input type="number" min="1" max="10" placeholder="Number of tickets">
+
+            <button type="submit" class="primary-btn">
+                Confirm Booking
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 CineBook | Movie Booking System</p>
+</footer>
+
+</body>
+</html>
